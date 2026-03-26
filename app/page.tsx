@@ -280,17 +280,9 @@ const education = [
     ],
   },
 ];
-/*
-    title: "Database Programming with SQL",
-    issuer: "Oracle",
-    logo: "/Oracle.png",
-    href: "#",
-  */
-
 const profileLinks = {
   github: "https://github.com/plasya",
   linkedin: "https://www.linkedin.com/in/pamarthi-lasya/",
-  resume: "#",
 };
 
 function ProjectPreview({
@@ -784,7 +776,12 @@ export default function Home() {
 
         <div className="contact-intro-wrap">
           <p className="contact-intro">
+<<<<<<< Updated upstream
             Feel free to reach out if you&apos;re hiring, collaborating, or just want to chat about backend systems or AI.
+=======
+            Feel free to reach out if you&apos;re hiring, collaborating, or just want
+            to chat about backend systems or AI.
+>>>>>>> Stashed changes
           </p>
         </div>
 
