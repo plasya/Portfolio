@@ -776,12 +776,7 @@ export default function Home() {
 
         <div className="contact-intro-wrap">
           <p className="contact-intro">
-<<<<<<< Updated upstream
-            Feel free to reach out if you&apos;re hiring, collaborating, or just want to chat about backend systems or AI.
-=======
-            Feel free to reach out if you&apos;re hiring, collaborating, or just want
-            to chat about backend systems or AI.
->>>>>>> Stashed changes
+Feel free to reach out if you're hiring, collaborating, or just want to chat about backend systems or AI.
           </p>
         </div>
 
