@@ -26,10 +26,13 @@ const featuredProjects = [
       "Real-time integrations (WhatsApp alerts, wearable platforms)",
     ],
     images: [
+      "https://raw.githubusercontent.com/plasya/hai-ai-training-agent/main/assets/screenshots/compare_bench.png",
+      "https://raw.githubusercontent.com/plasya/hai-ai-training-agent/main/assets/screenshots/compare_followup.png",
+      "https://raw.githubusercontent.com/plasya/hai-ai-training-agent/main/assets/screenshots/data_status.png",
+      "https://raw.githubusercontent.com/plasya/hai-ai-training-agent/main/assets/screenshots/planner.png",
       "/projects/hai-2.png",
       "/projects/hai-1.png",
       "/projects/hai-3.png",
-      "/projects/hai-chat.png",
     ],
     imageCaption:
       "LLM acts as planner and narrator, while analytics functions execute controlled computations on structured fitness data.",
@@ -357,17 +360,6 @@ export default function Home() {
   const [theme, setTheme] = useState<"dark" | "light">("light");
   const heroLine =
     "I build backend systems, APIs, and data-driven applications, with experience integrating AI into real-world products.";
-
-  useEffect(() => {
-    const saved = window.localStorage.getItem("portfolio-theme");
-    if (saved === "light" || saved === "dark") {
-      setTheme(saved);
-    }
-  }, []);
-
-  useEffect(() => {
-    window.localStorage.setItem("portfolio-theme", theme);
-  }, [theme]);
 
   useEffect(() => {
     const sectionIds = [
@@ -776,7 +768,8 @@ export default function Home() {
 
         <div className="contact-intro-wrap">
           <p className="contact-intro">
-Feel free to reach out if you're hiring, collaborating, or just want to chat about backend systems or AI.
+            Feel free to reach out if you&apos;re hiring, collaborating, or just
+            want to chat about backend systems or AI.
           </p>
         </div>
 
